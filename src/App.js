@@ -1,8 +1,11 @@
-import './App.css';
+import Convertor from "./Convertor";
+import "./App.css"
 
 function App() {
   return (
-    <div>Hello</div>
+    <div className="App">
+      <Convertor />
+    </div>
   );
 }
 
